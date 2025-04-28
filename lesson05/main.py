@@ -19,15 +19,47 @@
 
 #3) Выведите в отдельный список числа, которые меньше или равны 5 и числа, которые больше 5.
 
-list1=[]
-list2=[]
-list3=[]
-for i in range(0, 11):
-    list1.append(i)
-    if i <= 5:
-        list2.append(i)
-    else:
-        list3.append(i)
-print(list1)
-print(list2)
-print(list3)
+# list1=[]
+# list2=[]
+# list3=[]
+# for i in range(0, 11):
+#     list1.append(i)
+#     if i <= 5:
+#         list2.append(i)
+#     else:
+#         list3.append(i)
+# print(list1)
+# print(list2)
+# print(list3)
+
+# 4) Вы принимаете от пользователя его имя, фамилию, возраст. Сохраните их в соответствующие переменные.
+# Сохраните полученные значения в список.
+
+# list1 = [input('Введите имя: '), input('Введите фамилию: '), input('Введите возраст: ')]
+# print(f'Список данных пользователя: {list1}')
+
+# name = input('Введите имя: ')
+# last_name = input('Введите фамилию: ')
+# age = input('Введите возраст: ')
+# list1 = [name, last_name, age]
+# print(f'Список данных пользователя: {list1}')
+
+# 5) Напишите программу, которая принимает пример со СЛОЖЕНИЕМ у пользователя и затем выдает результат.
+# (решите с помощью генератора списка)
+
+# str1 = input(1 )
+# list1 = str1.split('+')
+# #list1 = []
+# print(list1)
+#
+# result = int(list1[0]) + int(list1[1])
+# print(result)
+
+# list1 = [(input()]
+# print(list1[0] + list1[1])
+
+list1 = input().split(' + ')
+print(int(list1[0]) + int(list1[1]))
+
+
+
