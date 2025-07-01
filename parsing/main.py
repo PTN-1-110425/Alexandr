@@ -1,4 +1,3 @@
-6140253259:AAHY2u22fbddt4xQ4r10ALHqS_rWDBmIo6E
 import requests
 from bs4 import BeautifulSoup
 
